@@ -1,0 +1,116 @@
+{
+    "config_information":{
+        "genome_build": "GRCh38",
+        "assay":"Atlas",
+        "config_version": "1.0.0"
+    },
+    "vep_resources":{
+        "vep_docker":"",
+        "vep_cache":"",
+        "plugin_config":"",
+        "reference_fasta":"",
+        "reference_fai":"",
+        "reference_gzi":"",
+        "ref_bcftools":""
+    },
+    "custom_annotations": [
+      {
+        "name": "ClinVar",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "CLNSIG,CLNREVSTAT,CLNDN,CLNSIGCONF",
+        "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
+        "resource_files": [
+          {
+          "file_id":"",
+          "index_id":""
+          }
+        ]
+      },
+      {
+        "name": "gnomADe",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AC,AN,AF",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF",
+        "resource_files": [
+          {
+          "file_id": "file-GvJqP704JBpk2YBB1PzJQkb2",
+          "index_id":"file-GvJqPxQ4JBpz9y18zPg7f5F0"
+          }
+        ]
+      },
+      {
+        "name": "gnomADg",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AC,AN,AF",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
+        "resource_files": [
+          {
+          "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
+          "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
+          }
+        ]
+      }
+    ],
+    "plugins": [
+      {
+        "name": "SpliceAI",
+        "pm_file": "",
+        "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
+        "resource_files": [
+          {
+            "file_id": "file-G9FFZ18433GpzFVy9XxfyBG4",
+            "index_id": "file-G9FFZb8433GvX5jJ23bQB2z7",
+            "prefix": "snv="
+          },
+          {
+            "file_id": "file-G9FFGbQ433GbXjxQBYy79X75",
+            "index_id": "file-G9FFGX0433GqkpYv23jB853V",
+            "prefix": "indel="
+          }
+        ]
+      },
+      {
+        "name": "CADD",
+        "pm_file": "",
+        "required_fields":"CADD_PHRED",
+        "resource_files": [
+          {
+            "file_id": "file-GvXK0Zj463q3JyB4k1Z6kFqJ",
+            "index_id": "file-GvXJ4304ZJz333bkQX06vKZx"
+          },
+          {
+            "file_id": "file-GvXJ5J041Jq97byQfyb9JF3z",
+            "index_id": "file-GvXJ5Vj4k5331YfvbVz98J22"
+          }
+        ]
+      },
+      {
+        "name": "REVEL",
+        "pm_file": "",
+        "required_fields":"REVEL",
+        "resource_files": [
+          {
+            "file_id": "file-G9bzGjQ433GxQQ844VP65q4Z",
+            "index_id": "file-G9bzKz0433Gx66X058gYBYbB"
+          }
+        ]
+      },
+      {
+        "name": "Mastermind",
+        "pm_file": "",
+        "required_fields":"Mastermind_MMID3",
+        "resource_files": [
+          {
+            "file_id": "file-G9bqzB0433GvxZV73ggyyk2g",
+            "index_id": "file-G9bqzB0433GYbx264Qqzpkg4"
+          }
+        ]
+      }
+    ]
+}
