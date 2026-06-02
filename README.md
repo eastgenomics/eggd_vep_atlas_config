@@ -21,14 +21,18 @@ This json file provides information about annotations,plugins, required fields a
   * {placeholder for GENIE}
   * {placeholder for prev counts}
 * Plugin annotations:
+  * SpliceAI
+    * spliceai_scores.masked.snv.hg38.vcf.gz
+    * spliceai_scores.masked.indel.hg38.vcf.gz
   * REVEL (version May 2022)
     * revel_b38.tsv.gz
   * CADD (v1.7)
     * cadd_1.7_b38_whole_genome_SNVs.tsv.gz
     * cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz
-  * SpliceAI
-    * spliceai_scores.masked.snv.hg38.vcf.gz
-    * spliceai_scores.masked.indel.hg38.vcf.gz
+  * Mastermind (version April 2022)
+    * mastermind_cited_variants_reference-2022.04.02-grch38.vcf.gz
+
+
 
 ## Notes
   How to check the names of all the files included in the config:

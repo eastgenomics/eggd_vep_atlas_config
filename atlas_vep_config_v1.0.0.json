@@ -112,5 +112,21 @@
           }
         ]
       }
+    ],
+    "additional_fields": [
+        "Allele",
+        "SYMBOL",
+        "Consequence",
+        "IMPACT",
+        "EXON",
+        "INTRON",
+        "Feature",
+        "HGVSc",
+        "HGVSp",
+        "HGVSg",
+        "HGVS_OFFSET",
+        "STRAND",
+        "Existing_variation",
+        "VARIANT_CLASS"
     ]
 }
