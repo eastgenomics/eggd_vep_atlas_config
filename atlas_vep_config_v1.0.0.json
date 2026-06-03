@@ -5,13 +5,13 @@
         "config_version": "1.0.0"
     },
     "vep_resources":{
-        "vep_docker":"",
-        "vep_cache":"",
-        "plugin_config":"",
-        "reference_fasta":"",
-        "reference_fai":"",
-        "reference_gzi":"",
-        "ref_bcftools":""
+        "vep_docker":"file-J5gjB684qY59yqYf1BzjbZg6",
+        "vep_cache":"file-J5gkjK841bfkf3bX9q3f3KjY",
+        "plugin_config":"file-J5gpV804z2gkyP3gZBYGj9jY",
+        "reference_fasta":"file-J5gj73Q4K24X5Qx2j3Pk6BGY",
+        "reference_fai":"file-J5gkpyQ4fVqj2f2G2Y5QqpbK",
+        "reference_gzi":"file-J5gkq084vZV3P6X642f8F339",
+        "ref_bcftools":"file-Gb772VQ4XGyzQ0Zk615XbZ0X"
     },
     "custom_annotations": [
       {
@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"",
-          "index_id":""
+          "file_id":"file-J81K47Q4XXz0Fjxq1jZ1Bz5P",
+          "index_id":"file-J81K6Y04XBJBX65jyzY1FbK8"
           }
         ]
       },

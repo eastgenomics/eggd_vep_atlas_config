@@ -13,9 +13,15 @@ This json file provides information about annotations,plugins, required fields a
 
 * Genome build: GRCh38
 * VEP required files:
-  * {placeholder as this will depend on VEP version}
+  * vep_v115.2.tar.gz
+  * homo_sapiens_refseq_vep_115_GRCh38.tar.gz
+  * plugin_config.txt
+  * Homo_sapiens_vep_115.GRCh38.dna.toplevel.fa.gz
+  * Homo_sapiens_vep_115.GRCh38.dna.toplevel.fa.gz.fai
+  * Homo_sapiens_vep_115.GRCh38.dna.toplevel.fa.gz.gzi
+  * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
 * Custom Annotation sources:
-  * clinvar_{version}.vcf.gz
+  * clinvar_20260510_GRCh38.vcf.gz
   * gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
   * gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
   * {placeholder for GENIE}
