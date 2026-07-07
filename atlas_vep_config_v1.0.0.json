@@ -55,12 +55,25 @@
           "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
           }
         ]
+      },
+      {
+        "name": "RESCUE_LIST",
+        "type": "bed",
+        "annotation_type": "overlap",
+        "force_coordinates": "0",
+        "required_fields": "RESCUE_LIST",
+        "resource_files": [
+          {
+          "file_id":"file-J93vJ6j431P6V1VkvjX026Bj",
+          "index_id":"file-J93vJ8j431P573v4xk2bpGyJ"
+          }
+        ]
       }
     ],
     "plugins": [
       {
         "name": "SpliceAI",
-        "pm_file": "",
+        "pm_file": "file-J5gpYb84GVQvxJyg3jQ904Kf",
         "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
         "resource_files": [
           {
@@ -77,7 +90,7 @@
       },
       {
         "name": "CADD",
-        "pm_file": "",
+        "pm_file": "file-J5gpVf84vKQV95bzK04K3FB9",
         "required_fields":"CADD_PHRED",
         "resource_files": [
           {
@@ -92,7 +105,7 @@
       },
       {
         "name": "REVEL",
-        "pm_file": "",
+        "pm_file": "file-J937ZK84QK28pFqfp1ZVGj1K",
         "required_fields":"REVEL",
         "resource_files": [
           {
@@ -103,7 +116,7 @@
       },
       {
         "name": "Mastermind",
-        "pm_file": "",
+        "pm_file": "file-J937ZQQ40YGG3b89J4yvGV9b",
         "required_fields":"Mastermind_MMID3",
         "resource_files": [
           {
