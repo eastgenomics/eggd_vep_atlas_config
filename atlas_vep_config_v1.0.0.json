@@ -57,15 +57,16 @@
         ]
       },
       {
-        "name": "RESCUE_LIST",
-        "type": "bed",
-        "annotation_type": "overlap",
+        "name": "IncludeVariant",
+        "type": "vcf",
+        "annotation_type": "exact",
         "force_coordinates": "0",
-        "required_fields": "RESCUE_LIST",
+        "vcf_fields": "IncludeList",
+        "required_fields": "IncludeVariant_IncludeList",
         "resource_files": [
           {
-          "file_id":"file-J93vJ6j431P6V1VkvjX026Bj",
-          "index_id":"file-J93vJ8j431P573v4xk2bpGyJ"
+          "file_id":"file-J9jx5V048xy03xXV0b79F4p1",
+          "index_id":"file-J9jx6Q848xy63pKFj46p1BV3"
           }
         ]
       }
@@ -113,18 +114,7 @@
             "index_id": "file-G9bzKz0433Gx66X058gYBYbB"
           }
         ],
-        "suffix": "1"
-      },
-      {
-        "name": "Mastermind",
-        "pm_file": "file-J937ZQQ40YGG3b89J4yvGV9b",
-        "required_fields":"Mastermind_MMID3",
-        "resource_files": [
-          {
-            "file_id": "file-G9bqzB0433GvxZV73ggyyk2g",
-            "index_id": "file-G9bqzB0433GYbx264Qqzpkg4"
-          }
-        ]
+        "suffix": "no_match=1"
       }
     ],
     "additional_fields": [
