@@ -60,4 +60,19 @@ done
 for file in  $(jq -r ' .plugins[]|.resource_files[]|.file_id' $config_file);
 do dx describe $file --json | jq -r '.name';
 done
+
+# All in one command
+jq -r '
+  def ids($tag): to_entries[]
+    | select(.value | type == "string" and startswith("file-"))
+    | [$tag, .key, .value];
+  (.vep_resources                      | ids("vep_resources")),
+  (.custom_annotations[] | .name as $n | .resource_files[] | ids("custom:\($n)")),
+  (.plugins[]            | .name as $n | ids("plugin:\($n)"),
+                                         (.resource_files[] | ids("plugin:\($n)")))
+  | @tsv' "$config_file" |
+while IFS=$'\t' read -r section field file_id; do
+    name=$(dx describe --name "$file_id" 2>/dev/null) || name="<<UNRESOLVED>>"
+    printf '%s\t%s\t%s\t%s\n' "$section" "$field" "$file_id" "${name:-<<UNRESOLVED>>}"
+done | column -t -s$'\t'
 ```
