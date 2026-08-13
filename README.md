@@ -21,9 +21,10 @@ This json file provides information about annotations,plugins, required fields a
   * Homo_sapiens_vep_115.GRCh38.dna.toplevel.fa.gz.gzi
   * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
 * Custom Annotation sources:
-  * clinvar_20260510_GRCh38.vcf.gz
+  * clinvar_20260804_GRCh38.vcf.gz
   * gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
   * gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
+  * 220721_TSO500_hotspot_inclusion_list_GRCh38.vcf.gz
   * {placeholder for GENIE}
   * {placeholder for prev counts}
 * Plugin annotations:
@@ -35,9 +36,6 @@ This json file provides information about annotations,plugins, required fields a
   * CADD (v1.7)
     * cadd_1.7_b38_whole_genome_SNVs.tsv.gz
     * cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz
-  * Mastermind (version April 2022)
-    * mastermind_cited_variants_reference-2022.04.02-grch38.vcf.gz
-
 
 
 ## Notes
