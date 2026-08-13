@@ -111,7 +111,8 @@
         "resource_files": [
           {
             "file_id": "file-G9bzGjQ433GxQQ844VP65q4Z",
-            "index_id": "file-G9bzKz0433Gx66X058gYBYbB"
+            "index_id": "file-G9bzKz0433Gx66X058gYBYbB",
+            "prefix": "file="
           }
         ],
         "suffix": "no_match=1"
