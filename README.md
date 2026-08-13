@@ -57,8 +57,8 @@ do dx describe $file --json | jq -r '.name';
 done
 
 # Get Plugin Annotation filenames
-for file in  $(jq -r ' .plugins[]|.resource_files[]|.file_id' $config_file);
-do dx describe $file --json | jq -r '.name';
+for file in $(jq -r '.plugins[] | .pm_file, (.resource_files[] | .file_id, .index_id)' "$config_file"); do
+  dx describe --name "$file"
 done
 
 # All in one command
