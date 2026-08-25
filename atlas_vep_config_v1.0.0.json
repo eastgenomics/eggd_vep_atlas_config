@@ -69,6 +69,20 @@
           "index_id":"file-J9jx6Q848xy63pKFj46p1BV3"
           }
         ]
+      },
+      {
+        "name": "GENIE",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "HGVSc, SameNucleotideChange_All_Cancers_Count_N_208523, SameAminoAcidChange_All_Cancers_Count_N_208523, SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_208523, NestedInframeDeletionsPerAA_All_Cancers_Count_N_208523, SameNucleotideChange_Solid_Cancers_Count_N_182170, SameAminoAcidChange_Solid_Cancers_Count_N_182170, SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_182170, NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_182170",
+        "required_fields": "GENIE_SameNucleotideChange_All_Cancers_Count_N_208523, GENIE_SameAminoAcidChange_All_Cancers_Count_N_208523, GENIE_SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_208523, GENIE_NestedInframeDeletionsPerAA_All_Cancers_Count_N_208523, GENIE_SameNucleotideChange_Solid_Cancers_Count_N_182170, GENIE_SameAminoAcidChange_Solid_Cancers_Count_N_182170, GENIE_SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_182170, GENIE_NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_182170",
+        "resource_files": [
+          {
+          "file_id":"file-J6PK79Q4YgBFxV1Qp24p5KV1",
+          "index_id":"file-J6Qqvv84YgB2Z0Kp4XYPVxKY"
+          }
+        ]
       }
     ],
     "plugins": [
