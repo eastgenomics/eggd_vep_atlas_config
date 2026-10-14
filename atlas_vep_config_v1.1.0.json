@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay":"Atlas",
-        "config_version": "1.0.0"
+        "config_version": "1.1.0"
     },
     "vep_resources":{
         "vep_docker":"file-J5gjB684qY59yqYf1BzjbZg6",
