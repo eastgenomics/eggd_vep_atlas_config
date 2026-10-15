@@ -25,8 +25,7 @@ This json file provides information about annotations,plugins, required fields a
   * gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
   * gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
   * 220721_TSO500_hotspot_inclusion_list_GRCh38.vcf.gz
-  * {placeholder for GENIE}
-  * {placeholder for prev counts}
+  * GENIE_v20_GRCh38_counts_v1.0.0.vcf.gz
 * Plugin annotations:
   * SpliceAI
     * spliceai_scores.masked.snv.hg38.vcf.gz
