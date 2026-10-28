@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay":"Atlas",
-        "config_version": "1.0.0"
+        "config_version": "1.1.0"
     },
     "vep_resources":{
         "vep_docker":"file-J5gjB684qY59yqYf1BzjbZg6",
@@ -75,12 +75,12 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "SameNucleotideChange_All_Cancers_Count_N_208523,SameAminoAcidChange_All_Cancers_Count_N_208523,SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_208523,NestedInframeDeletionsPerAA_All_Cancers_Count_N_208523,SameNucleotideChange_Solid_Cancers_Count_N_182170,SameAminoAcidChange_Solid_Cancers_Count_N_182170,SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_182170,NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_182170",
-        "required_fields": "GENIE_SameNucleotideChange_All_Cancers_Count_N_208523,GENIE_SameAminoAcidChange_All_Cancers_Count_N_208523,GENIE_SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_208523,GENIE_NestedInframeDeletionsPerAA_All_Cancers_Count_N_208523,GENIE_SameNucleotideChange_Solid_Cancers_Count_N_182170,GENIE_SameAminoAcidChange_Solid_Cancers_Count_N_182170,GENIE_SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_182170,GENIE_NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_182170",
+        "vcf_fields": "SameNucleotideChange_All_Cancers_Count_N_221639,SameAminoAcidChange_All_Cancers_Count_N_221639,SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_221639,NestedInframeDeletionsPerAA_All_Cancers_Count_N_221639,SameNucleotideChange_Solid_Cancers_Count_N_192330,SameAminoAcidChange_Solid_Cancers_Count_N_192330,SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_192330,NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_192330",
+        "required_fields": "GENIE_SameNucleotideChange_All_Cancers_Count_N_221639,GENIE_SameAminoAcidChange_All_Cancers_Count_N_221639,GENIE_SameOrDownstreamTruncatingVariantsPerAA_All_Cancers_Count_N_221639,GENIE_NestedInframeDeletionsPerAA_All_Cancers_Count_N_221639,GENIE_SameNucleotideChange_Solid_Cancers_Count_N_192330,GENIE_SameAminoAcidChange_Solid_Cancers_Count_N_192330,GENIE_SameOrDownstreamTruncatingVariantsPerAA_Solid_Cancers_Count_N_192330,GENIE_NestedInframeDeletionsPerAA_Solid_Cancers_Count_N_192330",
         "resource_files": [
           {
-          "file_id":"file-J6PK79Q4YgBFxV1Qp24p5KV1",
-          "index_id":"file-J6Qqvv84YgB2Z0Kp4XYPVxKY"
+          "file_id":"file-JB70G6840Q09jkFBxQvPy3g5",
+          "index_id":"file-JB70G7j40Q0Bf09Y390fg8JK"
           }
         ]
       }
