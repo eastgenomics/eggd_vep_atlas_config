@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay":"Atlas",
-        "config_version": "1.1.0"
+        "config_version": "1.2.0"
     },
     "vep_resources":{
         "vep_docker":"file-J5gjB684qY59yqYf1BzjbZg6",
@@ -130,7 +130,16 @@
           }
         ],
         "suffix": "no_match=1"
+      },
+      {
+        "name": "HGVSpOneLetter",
+        "pm_file": "file-JFJ7Fj040PzF4VfBqGk49JVg",
+        "required_fields": "HGVSp_OneLetter,HGVSp_SyntaxFlag",
+        "resource_files": []
       }
+    ],
+    "additional_flags": [
+        "dir_plugins=/data/Plugins"
     ],
     "additional_fields": [
         "Allele",
