@@ -130,7 +130,16 @@
           }
         ],
         "suffix": "no_match=1"
+      },
+      {
+        "name": "HGVSpOneLetter",
+        "pm_file": "file-JFJ7Fj040PzF4VfBqGk49JVg",
+        "required_fields": "HGVSp_OneLetter,HGVSp_SyntaxFlag",
+        "resource_files": []
       }
+    ],
+    "additional_flags": [
+        "dir_plugins=/data/Plugins"
     ],
     "additional_fields": [
         "Allele",
